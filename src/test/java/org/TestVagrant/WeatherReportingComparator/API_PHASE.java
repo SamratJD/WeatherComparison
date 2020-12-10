@@ -20,10 +20,4 @@ public class API_PHASE extends APIBase {
 		return cityTemp;
 	}
 
-	public static void main(String[] args) throws Exception {
-		API_PHASE ap = new API_PHASE();
-		System.out.println(ap.fetchAPIDetails("Kolkata"));
-
-	}
-
 }

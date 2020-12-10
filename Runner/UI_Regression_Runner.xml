@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test name="UI Regression">
+         <classes>
+             <class name="org.TestVagrant.WeatherReportingComparator.UI_REG"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -28,7 +28,7 @@ public class COMPARISON_PHASE extends UIBase {
 		fis = new FileInputStream(System.getProperty("user.dir") + "\\GlobalConfig.Properties");
 		prop.load(fis);
 		String fileName = prop.getProperty("INPUT_OUTPUT_FILENAME");
-		ExcelReader ex = new ExcelReader(System.getProperty("user.dir") + "\\" + fileName);
+		ExcelReader ex = new ExcelReader(System.getProperty("user.dir") + "\\TestData\\" + fileName);
 
 		// 1. API Phase:
 		List<String> apiTemp = new ArrayList<String>();
